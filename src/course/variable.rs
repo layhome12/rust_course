@@ -46,6 +46,19 @@ pub fn string() {
 }
 
 #[test]
+pub fn boolean() {
+    let boolean: bool = false;
+
+    println!("boolean : {}", boolean);
+}
+
+#[test]
+pub fn char() {
+    let char: char = 'a';
+    println!("char : {}", char);
+}
+
+#[test]
 pub fn muttable() {
     // -- muttable variable
     // akan membuat variable baru
@@ -53,4 +66,11 @@ pub fn muttable() {
     says = "its fine..";
 
     println!("muttable : {}", says);
+}
+
+#[test]
+pub fn constant() {
+    const SHOW_ME: &str = "Hello World";
+
+    println!("constant : {}", SHOW_ME);
 }
