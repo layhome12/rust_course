@@ -1,4 +1,4 @@
-// variable course
+// variable types
 
 #[test]
 pub fn integer() {
